@@ -1,0 +1,2 @@
+a-Se acualiza mediante el comando de git pull
+b-Si alfa pude agregar el fork de gamma como un repositorio remoto y asi obtener los cambios
