@@ -1,3 +1,80 @@
 Gutierrez Mariel
 Lopez Hoays Aaron Bernabe
 Gloria Salas Diego Leonardo
+a-Se acualiza mediante el comando de git pull
+b-Si alfa pude agregar el fork de gamma como un repositorio remoto y asi obtener los cambios
+c-Sí, Gamma puede actualizar su fork al estado del fork de Alfa, puede traer su estado actual como remoto.
+d-No, el repositorio puede actualizarse y fusionarse de forma automática o manual en caso de ser requerido.
+e- Listado paso a paso para realizar el TP:
+
+1) # Para crear el repositorio con readme y un archivo llamado fork.txt (Diego Gloria Salas)
+1. Desde la página de github, creó el repositorio llamado : “TP_SO_i2_Equipo_106”. Con readme incluido.
+2. Clonó el repositorio en la terminal
+$ git clone https://github.com/DiegoLGS/TP_SO_i2_Equipo_106.git
+3. Creó y agregó el archivo fork.txt a mano, en el repositorio local
+4. git add .
+5. git commit -m "agregado fork.txt"
+6. git push
+
+2) # Para forkear y escribir en el archivo fork.txt (Aaron Lopez Hoays)
+1. Realizó un fork al repositorio de BETA desde github
+2. Clonó el repositorio en la terminal
+$ git clone https://github.com/Aaronbloez/TP_SO_i2_Equipo_106.git
+3. Escribió en el archivo nombre, apellido, dirección IP y hora. 
+4. $ git add .
+5. $ git commit -m "Forkeo y escritura de datos gamma"
+6. $ git push
+
+3) # Para forkear y escribir en el archivo (Mariel Gutierrez)
+1. Realizó un fork al repositorio de BETA desde github
+2. Clonó el repositorio en la terminal de git bash
+$ git clone https://github.com/marielgutierrez/TP_SO_i2_Equipo_106.git
+3. Escribió en el archivo nombre, apellido, dirección IP y hora.
+4. $ git add .
+5. $ git commit -m "Datos forkeados y escritura de archivo"
+6. $ git push
+
+4) # Para crear en el repositorio un archivo llamado NuevoDato.txt. (Diego Gloria Salas)
+1. Creó y agregó el archivo a mano, de forma local.
+2. $ git add . 
+3. $ git commit -m "agregando NuevoDato.txt"
+4. $ git push
+
+5) # Para actualizar el repositorio al estado que lo dejó BETA (Aaron Lopez - Mariel Gutierrez)
+1. Realizamos un fetch and merge desde github
+2. $ git pull origin main (en la terminal de git bash)
+
+6) # Para crear el archivo “respuesta_I2_Equipo_106”. (Diego Gloria Salas)
+1. Creó y agregó el archivo a mano, de forma local.
+2. Escribió dentro del archivo Apellido y nombre de los alumnos que participaron de la interacción.
+3. $ git add . 
+4. $ git commit -m "archivo respuesta creado"
+5. $ git push
+
+7) # Para subir las respuestas a- y b- (Aaron Lopez)
+1. Realizó un fetch and merge desde github
+2. $ git pull origin main (en la terminal)
+3. Escribió dentro del archivo “respuesta_I2_Equipo_106” las respuestas a- y b-, de forma local.
+4. $ git add . 
+5. $ git commit -m "Primeras respuestas"
+6. $ git push
+7. Realizó un pull request.
+
+8) # Para subir las respuestas c- y d- (Diego Gloria Salas)
+1. Aceptó el pull request de GAMMA
+2. $ git pull origin main (en la terminal)
+3. Escribió dentro del archivo “respuesta_I2_Equipo_106” las respuestas c- y d-, de forma local.
+4. $ git add . 
+5. $ git commit -m "respuestas c y d agregadas"
+6. $ git push
+
+9) # Para subir la respuesta e- (Mariel Gutierrez)
+1. Realizó un fetch and merge desde github
+2. $ git pull origin main (en la terminal)
+3. Escribió dentro del archivo “respuesta_I2_Equipo_106” la respuesta e-, de forma local.
+4. $ git add . 
+5. $ git commit -m "respuestas finales"
+6. $ git push
+7. Realizó un pull request.
+
+10) # Aceptó el pull request de ALFA y quedó la versión final del archivo. (Diego Gloria Salas)

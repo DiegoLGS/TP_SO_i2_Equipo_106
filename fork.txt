@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 Mariel Gutierrez
 192.168.0.109
 09:56:11
+=======
+Aaron Bernabe Lopez Hoays
+192.168.121.150(Es otra la ip estoy en otra maquna)
+10:20
+>>>>>>> 911beea2dc5e4cbd216dcee1bdb86e665f5f7941
