@@ -3,3 +3,5 @@ Lopez Hoays Aaron Bernabe
 Gloria Salas Diego Leonardo
 a-Se acualiza mediante el comando de git pull
 b-Si alfa pude agregar el fork de gamma como un repositorio remoto y asi obtener los cambios
+c-Sí, Gamma puede actualizar su fork al estado del fork de Alfa, puede traer su estado actual como remoto.
+d-No, el repositorio puede actualizarse y fusionarse de forma automática o manual en caso de ser requerido.
